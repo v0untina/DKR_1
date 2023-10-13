@@ -9,7 +9,7 @@ begin
     if x<1 then
       y:=exp(x)/-x
     else
-      if 1<=x then
+      if x>=1 then
         y:=power(0,1*x)*tan(x)-cos(2*x);
    writeln('y= ', y);
 end.
